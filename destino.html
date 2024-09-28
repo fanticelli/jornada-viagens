@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+
+    <header class="cabecalho__container">
+        
+        <div class="cabecalho">
+            
+            <a href="index.html" class="logo">
+                <img class="logo--icone" alt="Logo da Jornada" src="./assets/logoprovisriabranca-1@2x.png" />
+                <div class="logo-tablet"></div>
+            </a>
+
+            <nav class="menu-principal" role="navigation" aria-label="Navegação do site">
+                <div class="menu-hamburguer"></div>
+                <ul class="menu--lista">
+                    <li class="menu--item">
+                        <a class="menu--link" href="blog.html" aria-label="Ir para a página do Blog">Blog</a>
+                    </li>
+                        
+                    <li class="menu--item">
+                        <a class="menu--link active" href="destino.html" aria-label="Ir para a página de Pacotes de viagens">Pacotes de viagem</a>
+                    </li>
+
+                    <li class="menu--item">
+                        <a class="menu--link" href="contato.html" aria-label="Ir para a página de Contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+        
+    </header>
+
+    <section class="banner">
+        <div class="banner__wrapper">
+            <figure class="banner__img-wrapper">
+                <img class="banner-imagem" alt="Homem navegando numa canoa" src="./assets/banner-destino.png" />
+                <div class="banner-mobile-destino"></div>
+            </figure>
+        </div>
+    </section>
+
+    <main class="container-destinos">
+
+        <section class="destinos">
+            <div class="titulo">
+                <h2 class="texto-titulo">Destinos da Excursão</h2>
+                <hr class="sublinhado-titulo"/>
+            </div>
+
+            
+            <ul class="destinos__lista">
+
+                <li class="destinos__item">
+                    <img class="destinos--image" alt="Imagem de Tóquio" src="./assets/destinos-tokyo.jpg" />
+                    <h3 class="destinos--nome">Tokyo</h3>
+                    <p class="destinos--descricao">
+                        Tóquio é uma cidade vibrante e cosmopolita, com seus templos
+                        históricos, museus de arte moderna e arranha-céus icônicos.
+                        Não perca a chance de mergulhar em sua atmosfera fascinante.
+                    </p>
+
+                    <div class="destinos--botao-container">
+                        <a href="#" class="destinos--botao">
+                            <span class="destinos--botao-texto">Ver detalhes</span>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="destinos__item">
+                    <img class="destinos--image" alt="Imagem de Osaka" src="./assets/destinos-osaka.jpg" />
+                    <h3 class="destinos--nome">Osaka</h3>
+                    <p class="destinos--descricao">
+                        Osaka é uma cidade agitada e moderna no Japãos. A cidade é
+                        famosa por sua gastronomia deliciosa e por ser um excelente
+                        ponto de partida para explorar outras cidades japonesas
+                        próximas.
+                    </p>
+
+                    <div class="destinos--botao-container">
+                        <a href="#" class="destinos--botao">
+                            <span class="destinos--botao-texto">Ver detalhes</span>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>  
+
+        <section class="pagamento">
+            <header class="titulo">
+                <h2 class="texto-titulo">Pagamento</h2>
+                <hr class="sublinhado-titulo"/>
+            </header>
+
+            <div class="pagamento__condicoes">
+                <div class="pagamento--descricao">
+                    <p class="pagamento--destaque">R$4000</p>
+                    <br>
+                    <p class="pagamento--destaque">Em até 12x!</p>
+                    <p class="pagamento--detalhes">
+                        Viaje pagando em até 12 parcelas <br class="remove"> no cartão, à vista no crédito
+                        com 5% de desconto ou no Pix com 10% de desconto!
+                    </p>
+                </div>
+                <img class="pagamento--imagem" alt="Imagem do Japão destaque" src="./assets/pagamento-destino.png" />       
+            </div>
+        </section>
+
+        <section class="depoimentos">
+            <header class="titulo">
+                <h2 class="texto-titulo">Depoimentos</h2>
+                <hr class="sublinhado-titulo"/>
+            </header>
+
+            <div class="depoimentos__wrapper">
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        Tive uma experiência inesquecível. 
+                        O pacote Japão me permitiu explorar  de templos antigos 
+                        a cidades modernas. E o valor coube no bolso, recomendo!
+                    </blockquote>
+
+                    <div class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" alt="Foto de Júlio Garibaldi" src="./assets/avatar-julio.png" />
+                        <div class="depoimentos__autor--info">
+                            <p class="depoimentos__autor--nome">Júlio Garibaldi</p>
+                            <div class="depoimentos__autor--avaliacao">
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        Minha viagem para Tóquio foi incrível. 
+                        O itinerário personalizado me permitiu muito em pouco tempo. 
+                        Excedeu minhas expectativas e já quero viajar com a Jornada novamente!
+                    </blockquote>
+
+                    <div class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" alt="Foto de Lúcia S. Rabello" src="./assets/avatar-lucia.png" />
+                        <div class="depoimentos__autor--info">
+                            <p class="depoimentos__autor--nome">Lúcia S. Rabello</p>
+                            <div class="depoimentos__autor--avaliacao">
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="depoimentos__item">
+                    <blockquote class="depoimentos__texto">
+                        Minha viagem para Osaka foi inesquecível! 
+                        A Jornada organizou tudo de forma perfeita, 
+                        recomendo de olhos fechados!
+                    </blockquote>
+
+                    <div class="depoimentos__autor">
+                        <img class="depoimentos__autor--foto" alt="Foto de Olga dos Reis" src="./assets/avatar-olga.png" />
+                        <div class="depoimentos__autor--info">
+                            <p class="depoimentos__autor--nome">Olga dos Reis</p>
+                            <div class="depoimentos__autor--avaliacao">
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                                <img class="depoimentos__autor--avaliacao-estrela" alt="Estrela cheia" src="./assets/star-1.svg" />
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <img class="rodape-destino" src="assets/rodape-destinos.png" alt="">
+    
+    <footer class="footer__container">
+        <div class="footer">
+            <div class="footer__logo-container">
+                <img class="footer__logo-icon" alt="" src="./assets/logobranco-1@2x.png" />
+                <div class="footer__info-container">
+                    <p class="footer__text-info">
+                        Horário de atendimento: 08h - 20h (Segunda a Sábado)
+                    </p>
+
+                    <p class="footer__text-info">
+                        Desenvolvido por Alura. Projeto fictício sem fins comerciais.
+                    </p>
+                </div>
+            </div>
+
+            <nav class="footer__social-media-container">
+                <div class="footer__social-media-text">Acesse nossas redes:</div>
+                <div class="footer__social-media-icons">
+
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Ícone do WhatsApp" src="./assets/whatsapp-1.svg" />
+                    </a>
+
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Ícone do Instagram" src="./assets/instragam-1.svg" />
+                    </a>
+
+                    <a href="#">
+                        <img class="footer__social-media-icon" alt="Ícone do Twitter" src="./assets/twiter-1.svg" />
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <button onclick="topFunction()" id="top" title="Voltar ao topo!">⬆</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
